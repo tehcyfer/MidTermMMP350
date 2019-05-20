@@ -1,0 +1,94 @@
+/*color scheme*/
+
+:root{
+	--title-color:#090DFF;
+	--title-shadow:#000000;
+    --author:white;
+    --menuback:#905444
+;
+    --menuitem:#52824A;
+    --background:#5859B2;
+    --buttons:#C0D283
+;
+    --date:52824A;
+}
+
+body {
+	background-color: #A88168;
+}
+
+#title{
+	color: var(--title-color);
+	background-color: var(--menuback);
+	border-radius: 2em;
+	padding: 1px 10px;
+	text-shadow: 5px 1px var(--title-shadow);
+    
+}
+
+#login *, #sign-up *,#post *{
+   
+}
+
+#posts{
+    
+}
+
+
+
+#menu{
+   background-color: var(--menuback);
+
+}
+
+#menu a{
+      color:var(--menuitem) ;
+}
+
+#menu a:hover{
+	color: var(--menuback);
+    background-color: var(--menuitem);
+    transition: .5s;
+    border-radius: 2em;
+    padding: 5px 10px;
+    
+}
+
+#write-post{
+	
+}
+
+.post{
+   border: 2px solid var(--title-shadow);   
+    
+}
+
+.post-text{
+  
+}
+
+.author{
+	text-decoration: underline;
+	color: var(--author);
+}
+
+.date{
+	color:var(--date);
+}
+
+#write-post{
+    
+}
+
+#submit-post {
+    background-color: var(--buttons);
+}
+
+#submit-sign-up{
+    background-color: var(--buttons);
+}
+
+#submit-login{
+    background-color: var(--buttons);
+ }
+

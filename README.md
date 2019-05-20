@@ -1,1 +1,1 @@
-# MidTermMMP350
+# MMP-350-Grid
